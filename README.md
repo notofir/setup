@@ -26,4 +26,5 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 ## Plugins
 git clone https://github.com/fatih/vim-go.git .vim_runtime/my_plugins/vim-go
 git clone https://github.com/bazelbuild/vim-bazel.git .vim_runtime/my_plugins/vim-bazel
+git clone https://github.com/google/vim-maktaba.git .vim_runtime/my_plugins/vim-maktaba
 ```
