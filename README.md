@@ -30,3 +30,13 @@ git clone https://github.com/google/vim-maktaba.git .vim_runtime/my_plugins/vim-
 git clone https://github.com/skanehira/docker.vim.git .vim_runtime/my_plugins/docker.vim
 python3 ~/.vim_runtime/update_plugins.py
 ```
+
+Changes to ~/.tmux.conf.local:
+```
+# Set to true:
+tmux_conf_copy_to_os_clipboard=true
+
+# Uncomment
+set -g status-keys vi
+set -g mode-keys vi
+```
