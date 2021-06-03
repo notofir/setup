@@ -16,8 +16,8 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
-brew install --cask {visual-studio-code thunderbird google-chrome firefox rectangle}
-brew install {clang-format docker kubectl minikube buildifier go fish reattach-to-user-namespace}
+brew install --cask {visual-studio-code,thunderbird,google-chrome,firefox,rectangle}
+brew install {clang-format,docker,kubectl,minikube,buildifier,go,fish,reattach-to-user-namespace}
 
 # vim
 ## vimrc
