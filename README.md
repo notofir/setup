@@ -36,7 +36,7 @@ Changes to ~/.tmux.conf.local:
 # Set to true:
 tmux_conf_copy_to_os_clipboard=true
 
-# Uncomment
+# Uncomment or set EDITOR='vim' env var
 set -g status-keys vi
 set -g mode-keys vi
 ```
